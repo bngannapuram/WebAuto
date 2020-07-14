@@ -7,7 +7,8 @@ This is a API automation framework for automating the steps as mentioned in the 
 2. pip
 
 ## How to run locally?
-C:\testsample>python AirVisualWebAPI.py
+
+>`C:\API Test> python AirVisualWebAPI.py`
 
 Note:
 1. Ensure python executable is set in PATH environment variable
@@ -18,6 +19,9 @@ Before begin, make sure you have Bamboo super user privilege to create a job & b
 Configure Github SCM to access the repo,
 1. Create a Bamboo job and configure tasks
 2. Add a task with below to run a script file,
-   Goto folder in bamboo wherever the docker_run.sh has been copied
-   chmod 755 docker_run.sh
-   ./docker_run.sh
+
+   >`cd <folder to docker_run.sh>`
+   
+   >`chmod 755 docker_run.sh`
+   
+   >`./docker_run.sh`
