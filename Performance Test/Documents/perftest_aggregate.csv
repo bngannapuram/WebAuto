@@ -1,0 +1,3 @@
+Request Name,Samples,Average (ms),90% Line (ms),95% Line (ms),Error %,Throughput (TPS)
+HomePage,1472,44926,67376,78092,0.41%,4.27109
+TOTAL,1472,44926,67376,78092,0.41%,4.27109
