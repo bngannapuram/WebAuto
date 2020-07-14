@@ -36,5 +36,6 @@ Tools: EC2, S3, Lambda, SQS, Cloudwatch
 4. Goto S3 bucket, upload testdata files
 5. Create another json file for triggering the test, place it in SQS which will inturn trigger lambda function.
 6. Goto cloudwatch an look for any observations.
+
 Note: You will have to get your S3 file (convert testdata file *.csv to *.json) using boto3, write its contents inside /tmp (this is the only writable directory inside Lambda functions) and finally invoke it like:
 os.system('python /tmp/myscript.py')
