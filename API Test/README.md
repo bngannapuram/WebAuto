@@ -7,7 +7,8 @@ This is a API automation framework for automating the steps as mentioned in the 
 2. pip
 
 ## How to run locally?
-C:\testsample>python AirVisualWebAPI.py
+
+>`C:\API Test> python AirVisualWebAPI.py`
 
 Note:
 1. Ensure python executable is set in PATH environment variable
