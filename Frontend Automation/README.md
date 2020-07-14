@@ -26,7 +26,7 @@ Before begin, make sure that Python is installed on machine that Jenkins runs on
 
  >`python <python_script>.py`
 
-4. Save the jon and click on Build.
+4. Save the job and click on Build.
 5. Check the console output.
 
 ## To Run in AWS Cloud
