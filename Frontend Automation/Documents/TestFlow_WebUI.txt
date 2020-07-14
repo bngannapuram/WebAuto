@@ -1,0 +1,15 @@
+Below are test steps to automate using Selenium Webdriver (Python),
+Browser : Chrome
+Platform : Windows
+
+1. Launch url https://www.dicksmith.com.au/
+2. Dismiss the first order offer dialog, if any
+3. Goto search bar enter Product-1 from testdata file, an click search button
+4. [Only for first search product] Dismiss the covid update dialog, if any
+5. Select the first matching product & Click the 'Add to Cart' button
+6. Repeat steps 3-5 for all products from testdata file.
+7. On top right corner, upon clicking 'Cart' button, shopping cart page will be loaded
+8. Upon clicking 'Checkout' button, a secure checkout page will be loaded
+9. Enter contact details an click 'Continue'
+10.Enter delivery address an click 'Continue'
+11.Enter credit card details for making payment
